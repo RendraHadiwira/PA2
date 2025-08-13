@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvVoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Speech"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvVoice"
+        android:padding="8dp"
+        android:text="Voice"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Speech"
+        android:layout_below="@id/btnVoice"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+</RelativeLayout>
